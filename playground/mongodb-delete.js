@@ -14,9 +14,11 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', function(err, db) {
     //     console.log(result);
     // })
 
-    db.collection('Todos').findOneAndDelete({text: 'Something to do'}).then(function(result) {
-        console.log(result);
-    })
+    // db.collection('Todos').findOneAndDelete({text: 'Something to do'}).then(function(result) {
+    //     console.log(result);
+    // })
+
+    
 
     //db.close();
 });
